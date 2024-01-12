@@ -15,7 +15,7 @@
 
     body {
 
-        background-color:#80BCBD;
+        background-color:#CABFAB;
 
         font-family: sans-serif;
 
@@ -47,7 +47,7 @@
 
     padding: 05px;
 
-    color: #D5F0C1;
+    color: #52575D;
 
     font-size: 20px;
 
@@ -59,13 +59,18 @@
 
  a:hover{
 
-    color: #AAD9BB;
+    color: black;
 
     position: static;
 
     cursor: pointer;
 
  }
+ 
+ a:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
 
     
 
@@ -172,7 +177,7 @@
     input[type=submit] {
 
      
-
+/*
      background-color: #F9F7C9;
 
         color: black;
@@ -187,7 +192,17 @@
 
         font-weight: bolder;
 
-    }
+*/
+
+
+
+
+
+
+
+
+
+
 
     
 
@@ -196,6 +211,8 @@
         background-color: #555;
 
     }
+ 
+  
 
    
 
@@ -223,7 +240,7 @@
 
         
 
-
+ 
 
 
     <section>
@@ -242,9 +259,10 @@
 
             <label for="message">Message:</label><br>
 
-            <textarea id="message" name="message"></textarea><br>
+            <textarea id="message" name="message"placeholder="Enter a Message" style="height:200px"></textarea><br>
 
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit"
+            class="button">
 
         </form>
 

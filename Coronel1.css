@@ -1,7 +1,7 @@
 
 body{
 
-    background-color:#80BCBD;
+    background-color:#CABFAB;
 
     font-family: sans-serif;
 
@@ -17,7 +17,7 @@ body{
 
     margin-top: 100px;
 
-    color: white;
+    color: #52575D;
 
     background-image: url(.png);
 
@@ -56,7 +56,7 @@ body{
 
     padding: 05px;
 
-    color: #D5F0C1;
+    color: #52575D;
 
     font-size: 20px;
 
@@ -68,7 +68,7 @@ body{
 
  a:hover{
 
-    color: #AAD9BB;
+    color: black;
 
     position: static;
 
@@ -111,11 +111,34 @@ h1{
 .pogi{
 
     font-weight: bold;
-
     color: black;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
     
 
     
 
+}
+.pogi1{
+
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+   
+    
+
+    
+
+    
+
+}
+
+a {
+    letter-spacing: 0;
+}
+
+a:hover,
+a:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
 }
